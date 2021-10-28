@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://clients.contology.com/Client/__Blank-Templates__/Bootstrap-CSS/domBS4_Master.css"
+		/>
+		<script src="https://clients.contology.com/Cooper/sandBox/carouselClass/carousel.js"></script>
+		<style>
+			#dom360_container {
+				max-width: 1170px;
+				width: 100%;
+				margin: 0 auto;
+				font-family: sans-serif;
+				font-size: 16px;
+				line-height: 1.5;
+			}
+
+			/* .carousel-container {
+				position: relative;
+			}
+
+			.image-container {
+				width: 100%;
+			}
+
+			.image-container .image {
+				display: none;
+				place-items: center;
+			}
+
+			.image-container .image img {
+				max-width: 100%;
+			}
+
+			.vis {
+				display: grid !important;
+			}
+
+			.controls {
+				position: absolute;
+				inset: 0;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.leftarrow, .rightarrow {
+				background: transparent;
+				border: none;
+				outline: none !important;
+				font-size: clamp(35px, 10vw, 90px) !important;
+				color: hsl(0, 0%, 50%);
+				cursor: pointer;
+				transition: text-shadow 200ms ease-in;
+			}
+
+			.leftarrow:focus, .rightarrow:focus {
+				text-shadow: 0px 0px 4px hsla(0,0%,0%,1);
+			} */
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="dom360_container">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div id="carousel">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			const carousel = document.getElementById('carousel');
+			const images = [
+				'https://loremflickr.com/880/550?random=1',
+				'https://loremflickr.com/880/550?random=2',
+				'https://loremflickr.com/880/550?random=3',
+				'https://loremflickr.com/880/550?random=4',
+				'https://loremflickr.com/880/550?random=5',
+				'https://loremflickr.com/880/550?random=6',
+				'https://loremflickr.com/880/550?random=7',
+				'https://loremflickr.com/880/550?random=8',
+				'https://loremflickr.com/880/550?random=9',
+				'https://loremflickr.com/880/550?random=10',
+			];
+
+			let carousel1 = new Carousel(carousel, images);
+			console.dir(carousel1);
+		</script>
+	</body>
+</html>
